@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: '';
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* //navbar css */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+
+.nav-link{
+  color: #808080 !important;
+}
+
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.headerImg{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.headerTitle{
+  font-weight: 700;
+  margin: 8px 0 0 10px;
+  color: #eba769;
+}
+
+.headerlogo{
+  display: flex;
+  margin: 0 0 0 50px;
+}
+
+.lists{
+  margin: 0 0 0 20px;
+}
+
+.searchstyle {
+  border: none;
+  border-radius: 5px;
+}
+
+.searchstyle:focus {
+  outline: none !important;
+  border: none;
+}
+
+.search-form button {
+  background-color: #198754;
+  border-radius: 5px;
+  color: white;
+}
+
+.cart{
+  font-weight: 100;
+  color: #808080;
+}
+
+
+/* =============================
+==========login page============= */
+
+.form-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  /* background-color: #ffdee9; */
+  background-image: url('../public/images/tesla.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%); */
+}
+
+.form-box form {
+  height: 500px;
+  width: 400px;
+  margin: 150px 0 0 0;
+  /* background-color: whitesmoke; */
+}
+
+.form-box form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.login {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.login:focus {
+  outline: none !important;
+}
+
+.sign{
+  text-decoration: none;
+}
+
+.signText{
+  color: #ffffff;
+}
+
+
+/* =============================
+==========Admin info============= */
+
+.adminInfo{
+  background-color: #808080 !important;
+  color: #ffffff !important;
+  text-align: center !important;
+}
+
+.adminProducts{
+  margin: 10px;
+}
+
+
+/* =============================
+==========footer============= */
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #808080; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #808080,
+    #434343
+    
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #808080, #434343);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+/* ================
+====dashboard
+=================== */
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
+
+
+
+
+/* image slider */
+
+.image-slider{
+  display: flex;
+}
+
+/* .image-slider img{
+  height: 110 !important;
+  width: 200px !important;
+  cursor: pointer;
+} */
